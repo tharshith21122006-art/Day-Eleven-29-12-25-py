@@ -1,0 +1,10 @@
+import string
+
+s = input()
+clean = ""
+
+for ch in s:
+    if ch not in string.punctuation:
+        clean += ch
+
+print(clean)
